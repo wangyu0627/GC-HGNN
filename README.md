@@ -1,5 +1,6 @@
 # GC-HGNN
 Generative-Contrastive Heterogeneous Graph Neural Network
+We will organize the complete code and upload it after the paper is accepted for publication.
 ### Enviroments
 - python==3.10
 - pytorch==2.0
