@@ -31,7 +31,7 @@ torch.manual_seed(seed)
 torch.cuda.manual_seed(seed)
 
 
-def train():
+def train(i):
     data_path = '../data/'
     (nei_index, predict, meta_paths, mps, feats, pos, label, idx_train, idx_val, idx_test), g, processed_metapaths = \
         load_data(args.dataset, args.ratio, args.type_num)
@@ -132,10 +132,10 @@ def train():
     print("Total time: ", time, "s")
     
     # if args.save_emb:
-        # f = open("./embeds/"+args.dataset+"/"+str(args.turn)+".pkl", "wb")
-        # pkl.dump(embeds.cpu().data.numpy(), f)
-        # f.close()
+    # f = open("./embeds/"+args.dataset+"/"+str(args.turn)+".pkl", "wb")
+    # pkl.dump(embeds.cpu().data.numpy(), f)
+    # f.close()
 
 
 if __name__ == '__main__':
-    train()
+    train(i=0)
