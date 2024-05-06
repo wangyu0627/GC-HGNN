@@ -131,10 +131,10 @@ def train():
     time = (endtime - starttime).seconds
     print("Total time: ", time, "s")
     
-    if args.save_emb:
-        f = open("./embeds/"+args.dataset+"/"+str(args.turn)+".pkl", "wb")
-        pkl.dump(embeds.cpu().data.numpy(), f)
-        f.close()
+    # if args.save_emb:
+        # f = open("./embeds/"+args.dataset+"/"+str(args.turn)+".pkl", "wb")
+        # pkl.dump(embeds.cpu().data.numpy(), f)
+        # f.close()
 
 
 if __name__ == '__main__':
