@@ -9,5 +9,5 @@ We will organize the complete code and upload it after the paper is accepted for
 - dgl==2.0
 ## How to Run the code
 ```
-python main.py dblp --gpu=0
+python main1.py dblp --gpu=0
 ```
