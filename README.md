@@ -1,5 +1,5 @@
 # [TBD 2025] GC-HGNN: Generative-Contrastive Heterogeneous Graph Neural Network
-Yu Wang, Lei Sang*, Yi Zhang and Yiwen Zhang. [[Paper link]](https://ieeexplore.ieee.org/document/11003807)
+Yu Wang, Lei Sang*, Yi Zhang,  Yiwen Zhang and Xindong Wu. [[Paper link]](https://ieeexplore.ieee.org/document/11003807)
 
 
 We will organize the complete code and upload it.
