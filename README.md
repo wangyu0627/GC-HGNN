@@ -12,3 +12,18 @@ Yu Wang, Lei Sang*, Yi Zhang,  Yiwen Zhang and Xindong Wu. [[Paper link]](https:
 ```
 python main1.py dblp --gpu=0
 ```
+
+## 📚 Baselines and Citation
+If you’d like to run the baselines from our paper, you can find it at the [[link]](https://github.com/wangyu0627/HGNN-baselines). 
+
+Feel free to cite our paper!
+```bibtex
+@article{GC-HGNN,
+  author={Wang, Yu and Sang, Lei and Zhang, Yi and Zhang, Yiwen and Wu, Xindong},
+  journal={IEEE Transactions on Big Data}, 
+  title={Generative-Contrastive Heterogeneous Graph Neural Network}, 
+  year={2025},
+  volume={11},
+  number={6},
+  pages={3061-3073},
+}
